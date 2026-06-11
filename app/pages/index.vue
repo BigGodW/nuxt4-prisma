@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>nuxt prisma</h1>
-        <NuxtLink to="/user">用户</NuxtLink>
-        <NuxtLink to="/adduser">添加</NuxtLink>
+        <NuxtLink to="/user" ><UButton>用户</UButton></NuxtLink>
+        <NuxtLink to="/adduser"><UButton>添加</UButton></NuxtLink>
     </div>
 </template>

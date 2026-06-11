@@ -3,7 +3,7 @@
         {{ user }}
         <input type="text" v-model="user.name">
         <input type="text" v-model="user.email">
-        <button @click="adduser">add</button>
+        <UButton @click="adduser">add</UButton>
     </div>
 </template>
 <script setup>
